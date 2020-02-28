@@ -1,0 +1,117 @@
+.flexbox__container {
+    background-color: cornflowerblue;
+    width: 120vh;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-content: space-around;
+}
+
+.flexbox__container1 {
+    background-color: #2B4570;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.flexbox__element1 {
+    background-color: #E49273;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.flexbox__container2 {
+    background-color: #A8D0DB;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.flexbox__element2 {
+    background-color: #E49273;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.flexbox__container3 {
+    background-color: #2B4570;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexbox__element3 {
+    background-color: #E49273;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.flexbox__container4 {
+    background-color: #A8D0DB;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.flexbox__element4 {
+    background-color: #A37A74;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flexbox__container5 {
+    background-color: #2B4570;
+    width: 273px;
+    height: 220px;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flexbox__element5 {
+    background-color: #A37A74;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    align-self: center;
+}
